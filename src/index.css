@@ -2,11 +2,7 @@ body {
     font: 14px "Century Gothic", Futura, sans-serif;
 }
 
-ol, ul {
-    padding-left: 30px;
-}
-
-.board-row:after {
+/*.board-row:after {
     clear: both;
     content: "";
     display: table;
@@ -14,16 +10,6 @@ ol, ul {
 
 .status {
     margin-bottom: 10px;
-}
-
-.submit{
-    margin-left: 5px;
-    background: greenyellow;
-    border: 1px solid #000000;
-    width: 90px;
-}
-
-.status{
     font-size: 20px;
 }
 
@@ -31,8 +17,19 @@ ol, ul {
     font-size: 20px;
     color: crimson;
 
+}*/
+
+/*
+.submit{
+    margin-left: 5px;
+    background: greenyellow;
+    border: 1px solid #000000;
+    width: 90px;
 }
-.square {
+*/
+
+
+/*.square {
     background: #ffffff;
     border: 1px solid #999;
     float: left;
@@ -53,17 +50,13 @@ ol, ul {
 
 .kbd-navigation .square:focus {
     background: #ddd;
-}
+}*/
 
-.game {
+/*.game {
     display: flex;
     flex-direction: row;
 }
 
-.game-info {
-    margin-left: 20px;
-}
-
-.game-mode {
+.game-menu {
     margin-left: 30px;
-}
+}*/
