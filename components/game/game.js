@@ -36,17 +36,18 @@ class Game extends React.Component {
     changeFraction = (newFraction) =>{
         this.setState({
             fraction: newFraction
-        });
-    };
+        })
+    }
     changeReadyStatus = (isReady) =>{
         this.setState({
             isReady: isReady
-        });
-    };
+        })
+    }
      sillyBot(squares) {
         let emptySquares = [];
+        let arr = squares;
         for (let i = 0; i < 9; i++) {
-            if (squares[i] !=='X' && squares[i] !== '0') {
+            if (arr[i] !=='X' && arr[i] !== '0') {
                 emptySquares.push(i);
             }
         }
@@ -85,7 +86,7 @@ class Game extends React.Component {
                 endStatus: "draw"
             });
         }
-    };
+    }
 
     checkWinner(squares) {
         const lines = [
